@@ -30,7 +30,7 @@ func main() {
 	router.POST("/update", update)
 	router.GET("/showall", showall)
 	router.Run(":8001")
-
+ 
 }
 
 func create(c *gin.Context) {
